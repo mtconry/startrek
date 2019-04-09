@@ -9,4 +9,4 @@ const ShipBox = (props) => {
     )
 };
 
-export default ShipBox
+export default ShipBox;
