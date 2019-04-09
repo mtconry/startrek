@@ -10,7 +10,8 @@ const Footer = () => {
                 direction={'top'}
                 length={'20px'}
                 duration={500}>
-                <a href="" target="_blank" rel="noopener noreferrer"><h3></h3></a>
+                    {/* //eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+                    <a href=" " target="_blank" rel="noopener noreferrer"><h3>Designed by Michael Conry</h3></a>
             </FadeIn>
         </footer>
     )

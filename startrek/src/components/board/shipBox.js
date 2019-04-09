@@ -1,11 +1,11 @@
 import React from 'react';
 
-import Ship from './Ship';
+import Ship from './ship';
 
 const ShipBox = (props) => {
     return(
-        <div className="Ship-box">
-            {props.Ships.map( (Ship, index) => <Ship Ship={Ship} index={index} onShipClick={props.onShipClick} key={Ship.name} />)}
+        <div className="ship-box">
+            {props.ships.map( (ship, index) => <Ship ship={ship} index={index} onShipClick={props.onShipClick} key={ship.name} />)}
         </div>
     )
 };
