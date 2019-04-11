@@ -40,7 +40,9 @@ const initialShips =[
     {
         name:'Spocks Jellyfish',
         img:'images/250X180/jellyfish.jpg',
-        clicked: false
+        clicked: false,
+        
+
     },
     {
         name:'Reliant',

@@ -8,7 +8,7 @@ export default class FadeIn extends Component {
     defaultStyle = {
         transition: `all ${this.props.duration}ms ease-in-out`,
         transitionDelay: this.props.delay || '0',
-        opacity: 0,
+        opacity: 1,
         position: 'relative'
     };
 
