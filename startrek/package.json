@@ -1,7 +1,8 @@
 {
   "name": "startrek",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "homepage" : "http://myname.github.io/myapp",
   "dependencies": {
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
